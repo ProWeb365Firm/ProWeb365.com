@@ -14,6 +14,6 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: aeea55aed8b9995adf8f9e607543d21e
+          accountId: 41828de89027bc90d8fe4522d0b5b5ef
           wranglerVersion: "4.154.0"
           command: deploy --name proweb365-com --assets . --compatibility-date 2026-10-23
